@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.YunSeek.Launcher" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/yunseek_launcher_window</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+    <color name="yunseek_launcher_window">#FF101411</color>
+</resources>

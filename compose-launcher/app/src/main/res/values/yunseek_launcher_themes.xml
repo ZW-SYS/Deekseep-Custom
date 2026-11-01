@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Framework (non-AppCompat) parent: SettingsActivity is a ComponentActivity driven by Compose,
+         so no AppCompat theme attributes are required. Light/dark variants keep the system bars and
+         the cold-start window background matching the Compose surface (no white/black flash). -->
+    <style name="Theme.YunSeek.Launcher" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/yunseek_launcher_window</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+    <color name="yunseek_launcher_window">#FFF7FAF6</color>
+</resources>
